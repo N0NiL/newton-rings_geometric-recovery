@@ -18,7 +18,7 @@ python -m venv .venv
 pip install -r requirements.txt
 ```
 
-A GPU is optional and only speeds up MA-Net inference. Some console messages
+A GPU is optional and only speeds up MA-Net inference Some console messages
 printed by the bench scripts are in Chinese; they do not affect the results.
 
 ## One-click reproduce
