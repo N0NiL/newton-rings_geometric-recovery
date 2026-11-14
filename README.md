@@ -1,10 +1,9 @@
 # Robust geometric recovery of Newton’s rings under non-ideal imaging — reproduction package
 
-This package contains the data, frozen results, and code behind the manuscript
-**“Robust geometric recovery of Newton’s rings under non-ideal imaging”**
-(H. Lin), submitted to *Optics and Lasers in Engineering*.
-With it, the main numbers in the paper can be checked without a GPU, and the
-fits can be regenerated from the recorded frames.
+This package contains the data, frozen results, and code for the paper
+**“Robust geometric recovery of Newton’s rings under non-ideal imaging”**.
+The main numbers in the paper can be checked without a GPU, and the fits can be
+regenerated from the recorded frames.
 
 中文说明见 [README_zh.md](README_zh.md).
 
@@ -20,7 +19,7 @@ pip install -r requirements.txt
 ```
 
 A GPU is optional and only speeds up MA-Net inference. Some console messages
-printed by the bench scripts are in Chinese. They do not affect the results.
+printed by the bench scripts are in Chinese; they do not affect the results.
 
 ## One-click reproduce
 
@@ -43,7 +42,7 @@ and needs `weights/50distill_last.pt`. Logs go to `results/reproduce_logs/`.
 
 ## Quick check (no GPU, no weights)
 
-Same four commands as the one-click script (run them yourself if the venv is already set up):
+Same four commands as the one-click script:
 
 ```bash
 python scripts/reproduce_tables.py
@@ -77,8 +76,8 @@ code/vision/           three-stage solver and background-subtraction frontend
 code/newmodel/         MA-Net inference
 code/bench/            scoring, comparison routes (Hough, FRFT-type), experiment drivers
 code/eval/             statistics and Monte Carlo evaluation
-docs/criteria.md       definition of the pass criteria and matching rules
-weights/               MA-Net inference checkpoint (distributed separately, see weights/README.md)
+docs/criteria.md       definition of the rules
+weights/               MA-Net inference checkpoint (distributed separately; see weights/README.md)
 ```
 
 Route names in the result files map to the paper as follows:
@@ -88,7 +87,7 @@ Route names in the result files map to the paper as follows:
 | `classical` | background-subtraction frontend + three-stage solver |
 | `v1.3` | MA-Net frontend + three-stage solver |
 | `Hough` | circle Hough transform |
-| `FRFT` | global r²-spectrum (FRFT-type) search |
+| `FRFT` | global r²-spectrum (FRFT-type / r²DFT) search |
 
 ## Paper item → command → artifact
 
@@ -109,8 +108,8 @@ Route names in the result files map to the paper as follows:
 
 ## Regenerating the fits
 
-The scripts in `code/bench/` resolve all paths inside this package through
-`code/bench/pkg_paths.py`. A one-frame smoke test without MA-Net:
+Scripts under `code/bench/` resolve paths inside this package through
+`code/bench/pkg_paths.py`. One-frame smoke test without MA-Net:
 
 ```bash
 python code/bench/run_comparison_now.py --limit 1 --skip-manet
@@ -120,21 +119,23 @@ python code/bench/run_v162_timing_static.py --limit 1 --skip-manet
 Smoke runs write to `results/smoke_*` and leave the frozen results untouched.
 A full run regenerates the circle lists of Tables 1–5 (`run_comparison_now.py`)
 or the timings and stationary fits of Tables 6–8 (`run_v162_timing_static.py`)
-and writes them to `results/`, replacing the frozen copies. The MA-Net route
-and the translation experiment need the checkpoint at `weights/50distill_last.pt`.
-Run times depend on the machine, so Table 6 will not be reproduced exactly.
+and writes them to `results/`, replacing the frozen copies.
+The MA-Net route and the translation experiment need the checkpoint at
+`weights/50distill_last.pt`.
+Run times depend on the machine, so Table 6 will not match exactly.
 MA-Net reruns can also differ from the frozen fits at the sub-pixel level
 (e.g. 0.01 px in the pole on frame 000000) because of GPU and library versions;
-the pass/fail decisions are unaffected on the frames we checked.
+on the frames checked, pass/fail decisions are unaffected.
 
 ## MA-Net
 
-Only the **inference-only** checkpoint of the distilled ResNet-50 MA-Net student
-is provided (`weights/50distill_last.pt`, ≈607 MB / 0.565 GiB;
-MD5 `5941203ce7b5384ba7a389c0a2606c83`). Teacher weights, optimizer state, and training metadata
-were stripped from the training dump; one-frame output matches the full
-checkpoint bit-exactly (see `weights/README.md`). The file fits under GitHub’s
-2 GiB Release limit. Training code and the 333 training frames are not included.
+Only a slim distilled-student checkpoint is provided
+(`weights/50distill_last.pt`, ≈607 MB / 0.565 GiB;
+MD5 `5941203ce7b5384ba7a389c0a2606c83`).
+Teacher weights, optimizer state, and training metadata were stripped; one-frame
+output matches the full training checkpoint element-wise (see `weights/README.md`),
+so the file stays under GitHub’s 2 GiB single-file Release limit.
+Training code and the 333 training frames are not included.
 Student inference uses `code/newmodel/models/baseline.py`.
 
 ## Instrument constants
@@ -144,9 +145,9 @@ Student inference uses `code/newmodel/models/baseline.py`.
 | Wavelength λ | 589.3 nm (sodium D line) |
 | Pixel scale p | 7.189 µm/pixel on the 768 × 768 analysis canvas |
 
-Both are working constants of the instrument software. They are not an
-independent metrological calibration of the relay optics, so lens radii
-derived from them serve only as a plausibility check, as in the paper.
+Both are working constants of the instrument software, not an independent
+metrological calibration of the relay optics, so lens radii derived from them
+serve only as a plausibility check, as in the paper.
 
 ## Frame IDs and subsets
 
@@ -173,10 +174,6 @@ software and is not the value used in the paper.
 
 ## Not included
 
-- The laboratory acquisition and teaching platform
-- The earlier 40-pixel crop experiment, which the translation experiment replaces
-- Internal revision notes of the scoring rules (the final rules are in `docs/criteria.md`)
-- Manuscript-preparation files
 - MA-Net training data, training code, and the teacher network
 
 ## License
@@ -188,4 +185,4 @@ software and is not the value used in the paper.
 
 ## Citation
 
-Please cite the article; citation metadata are in [CITATION.cff](CITATION.cff).
+Citation metadata are in [CITATION.cff](CITATION.cff).
