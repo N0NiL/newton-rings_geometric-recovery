@@ -1,17 +1,13 @@
 cff-version: 1.2.0
-message: "If you use this code or data, please cite as below."
-title: "Robust geometric recovery of Newton’s rings under non-ideal imaging: reproduction package"
+message: "If you use this software, please cite it as below."
+title: "Robust geometric recovery of Newton's rings under non-ideal imaging: reproduction package"
 type: software
 authors:
   - name: "N0NiL"
+    orcid: "https://orcid.org/0009-0007-2552-0685"
+license: "GPL-3.0-or-later"
 repository-code: "https://github.com/N0NiL/newton-rings_geometric-recovery"
-license:
-  - GPL-3.0-or-later
-  - CC-BY-4.0
-preferred-citation:
-  type: software
-  title: "Robust geometric recovery of Newton’s rings under non-ideal imaging: reproduction package"
-  authors:
-    - name: "N0NiL"
-  url: "https://github.com/N0NiL/newton-rings_geometric-recovery"
-  notes: "Replace with the journal citation and DOI when the accompanying paper is published."
+keywords:
+  - Newton's rings
+  - geometric recovery
+  - interferometry
