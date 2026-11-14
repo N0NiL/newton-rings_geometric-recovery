@@ -1,0 +1,200 @@
+{
+  "n_readable": 82,
+  "n_combos": 108,
+  "seconds": 2775.1,
+  "paper_fixed_custom_hough": {
+    "name": "paper_custom_hough_canny_35_110",
+    "ok_0p5": 0,
+    "ok_1p0": 1,
+    "ok_2p0": 1,
+    "ok_none": 1,
+    "n": 82
+  },
+  "oracle_best": {
+    "ok_0p5": 0,
+    "ok_1p0": 0,
+    "ok_2p0": 0,
+    "ok_none": 0,
+    "n": 82,
+    "dp": 1.2,
+    "min_dist": 15.0,
+    "param1": 40.0,
+    "param2": 20.0,
+    "min_radius": 30,
+    "max_radius": 700,
+    "method_name": "HOUGH_GRADIENT"
+  },
+  "top10": [
+    {
+      "ok_0p5": 0,
+      "ok_1p0": 0,
+      "ok_2p0": 0,
+      "ok_none": 0,
+      "n": 82,
+      "dp": 1.2,
+      "min_dist": 15.0,
+      "param1": 40.0,
+      "param2": 20.0,
+      "min_radius": 30,
+      "max_radius": 700,
+      "method_name": "HOUGH_GRADIENT"
+    },
+    {
+      "ok_0p5": 0,
+      "ok_1p0": 0,
+      "ok_2p0": 0,
+      "ok_none": 0,
+      "n": 82,
+      "dp": 1.2,
+      "min_dist": 15.0,
+      "param1": 40.0,
+      "param2": 35.0,
+      "min_radius": 30,
+      "max_radius": 700,
+      "method_name": "HOUGH_GRADIENT"
+    },
+    {
+      "ok_0p5": 0,
+      "ok_1p0": 0,
+      "ok_2p0": 0,
+      "ok_none": 0,
+      "n": 82,
+      "dp": 1.2,
+      "min_dist": 15.0,
+      "param1": 40.0,
+      "param2": 50.0,
+      "min_radius": 30,
+      "max_radius": 700,
+      "method_name": "HOUGH_GRADIENT"
+    },
+    {
+      "ok_0p5": 0,
+      "ok_1p0": 0,
+      "ok_2p0": 0,
+      "ok_none": 0,
+      "n": 82,
+      "dp": 1.2,
+      "min_dist": 15.0,
+      "param1": 70.0,
+      "param2": 20.0,
+      "min_radius": 30,
+      "max_radius": 700,
+      "method_name": "HOUGH_GRADIENT"
+    },
+    {
+      "ok_0p5": 0,
+      "ok_1p0": 0,
+      "ok_2p0": 0,
+      "ok_none": 0,
+      "n": 82,
+      "dp": 1.2,
+      "min_dist": 15.0,
+      "param1": 70.0,
+      "param2": 35.0,
+      "min_radius": 30,
+      "max_radius": 700,
+      "method_name": "HOUGH_GRADIENT"
+    },
+    {
+      "ok_0p5": 0,
+      "ok_1p0": 0,
+      "ok_2p0": 0,
+      "ok_none": 0,
+      "n": 82,
+      "dp": 1.2,
+      "min_dist": 15.0,
+      "param1": 70.0,
+      "param2": 50.0,
+      "min_radius": 30,
+      "max_radius": 700,
+      "method_name": "HOUGH_GRADIENT"
+    },
+    {
+      "ok_0p5": 0,
+      "ok_1p0": 0,
+      "ok_2p0": 0,
+      "ok_none": 0,
+      "n": 82,
+      "dp": 1.2,
+      "min_dist": 15.0,
+      "param1": 110.0,
+      "param2": 20.0,
+      "min_radius": 30,
+      "max_radius": 700,
+      "method_name": "HOUGH_GRADIENT"
+    },
+    {
+      "ok_0p5": 0,
+      "ok_1p0": 0,
+      "ok_2p0": 0,
+      "ok_none": 0,
+      "n": 82,
+      "dp": 1.2,
+      "min_dist": 15.0,
+      "param1": 110.0,
+      "param2": 35.0,
+      "min_radius": 30,
+      "max_radius": 700,
+      "method_name": "HOUGH_GRADIENT"
+    },
+    {
+      "ok_0p5": 0,
+      "ok_1p0": 0,
+      "ok_2p0": 0,
+      "ok_none": 0,
+      "n": 82,
+      "dp": 1.2,
+      "min_dist": 15.0,
+      "param1": 110.0,
+      "param2": 50.0,
+      "min_radius": 30,
+      "max_radius": 700,
+      "method_name": "HOUGH_GRADIENT"
+    },
+    {
+      "ok_0p5": 0,
+      "ok_1p0": 0,
+      "ok_2p0": 0,
+      "ok_none": 0,
+      "n": 82,
+      "dp": 1.2,
+      "min_dist": 25.0,
+      "param1": 40.0,
+      "param2": 20.0,
+      "min_radius": 30,
+      "max_radius": 700,
+      "method_name": "HOUGH_GRADIENT"
+    }
+  ],
+  "grid": {
+    "methods": [
+      "HOUGH_GRADIENT",
+      "HOUGH_GRADIENT_ALT"
+    ],
+    "dp": [
+      1.2,
+      1.5
+    ],
+    "minDist": [
+      15.0,
+      25.0,
+      40.0
+    ],
+    "param1_canny_high": [
+      40.0,
+      70.0,
+      110.0
+    ],
+    "param2_accumulator": [
+      20.0,
+      35.0,
+      50.0
+    ],
+    "minRadius": [
+      30
+    ],
+    "maxRadius": [
+      700
+    ]
+  }
+}

@@ -1,0 +1,11 @@
+对照集。10 月 18 日正式帧，加上 session2 已标类别的帧。
+Illegible 是原 Broken：成像极模糊、条纹过密或曝光过重，信息量不够。
+未标类别的 session2 帧在 session2_20260717/_left_out，不在本目录。
+
+session2 收入 50 张，放下 8 张。
+放下: 000059_Unset, 000069_Unset, 000089_Unset, 000097_Unset, 000105_Unset, 000111_Unset, 000118_Unset, 000119_Unset
+
+Easy: 24
+Open-arc: 58
+Illegible: 11
+全部: 93

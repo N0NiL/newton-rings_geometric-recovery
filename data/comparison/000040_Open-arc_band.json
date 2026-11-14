@@ -1,0 +1,352 @@
+{
+  "schema": "paper_human_band_v1",
+  "stem": "000040_Open-arc",
+  "review": "edited",
+  "half_init_px": 4.0,
+  "center_xy": [
+    878.32,
+    1198.21
+  ],
+  "center_in_frame": false,
+  "off_side": "bottom",
+  "note": "半宽按分析画布上暗纹的半高宽起稿，供人工再改。不替代 *_human.json。",
+  "rings": [
+    {
+      "radius_px": 649.7,
+      "half_width_px": 4.0,
+      "source_radius_px": 649.7,
+      "role": "newton"
+    },
+    {
+      "radius_px": 664.06,
+      "half_width_px": 4.0,
+      "source_radius_px": 664.06,
+      "role": "newton"
+    },
+    {
+      "radius_px": 679.69,
+      "half_width_px": 4.0,
+      "source_radius_px": 679.69,
+      "role": "newton"
+    },
+    {
+      "radius_px": 694.52,
+      "half_width_px": 4.0,
+      "source_radius_px": 694.52,
+      "role": "newton"
+    },
+    {
+      "radius_px": 710.97,
+      "half_width_px": 4.0,
+      "source_radius_px": 710.97,
+      "role": "newton"
+    },
+    {
+      "radius_px": 724.1,
+      "half_width_px": 4.0,
+      "source_radius_px": 724.1,
+      "role": "newton"
+    },
+    {
+      "radius_px": 739.19,
+      "half_width_px": 4.0,
+      "source_radius_px": 739.19,
+      "role": "newton"
+    },
+    {
+      "radius_px": 755.24,
+      "half_width_px": 4.0,
+      "source_radius_px": 755.24,
+      "role": "newton"
+    },
+    {
+      "radius_px": 770.97,
+      "half_width_px": 4.0,
+      "source_radius_px": 770.97,
+      "role": "newton"
+    },
+    {
+      "radius_px": 784.06,
+      "half_width_px": 4.0,
+      "source_radius_px": 784.06,
+      "role": "newton"
+    },
+    {
+      "radius_px": 795.97,
+      "half_width_px": 4.0,
+      "source_radius_px": 795.97,
+      "role": "newton"
+    },
+    {
+      "radius_px": 807.87,
+      "half_width_px": 4.0,
+      "source_radius_px": 807.87,
+      "role": "newton"
+    },
+    {
+      "radius_px": 823.65,
+      "half_width_px": 4.0,
+      "source_radius_px": 823.65,
+      "role": "newton"
+    },
+    {
+      "radius_px": 838.36,
+      "half_width_px": 3.58,
+      "source_radius_px": 838.36,
+      "role": "newton"
+    },
+    {
+      "radius_px": 852.21,
+      "half_width_px": 3.36,
+      "source_radius_px": 852.21,
+      "role": "newton"
+    },
+    {
+      "radius_px": 864.91,
+      "half_width_px": 2.88,
+      "source_radius_px": 864.91,
+      "role": "newton"
+    },
+    {
+      "radius_px": 874.8,
+      "half_width_px": 3.18,
+      "source_radius_px": 874.8,
+      "role": "newton"
+    },
+    {
+      "radius_px": 887.32,
+      "half_width_px": 3.35,
+      "source_radius_px": 887.32,
+      "role": "newton"
+    },
+    {
+      "radius_px": 899.84,
+      "half_width_px": 3.25,
+      "source_radius_px": 899.84,
+      "role": "newton"
+    },
+    {
+      "radius_px": 911.96,
+      "half_width_px": 3.17,
+      "source_radius_px": 911.96,
+      "role": "newton"
+    },
+    {
+      "radius_px": 923.18,
+      "half_width_px": 3.19,
+      "source_radius_px": 923.18,
+      "role": "newton"
+    },
+    {
+      "radius_px": 935.56,
+      "half_width_px": 2.62,
+      "source_radius_px": 935.56,
+      "role": "newton"
+    },
+    {
+      "radius_px": 944.69,
+      "half_width_px": 2.57,
+      "source_radius_px": 944.69,
+      "role": "newton"
+    },
+    {
+      "radius_px": 957.53,
+      "half_width_px": 2.99,
+      "source_radius_px": 957.53,
+      "role": "newton"
+    },
+    {
+      "radius_px": 968.19,
+      "half_width_px": 2.4,
+      "source_radius_px": 968.19,
+      "role": "newton"
+    },
+    {
+      "radius_px": 977.88,
+      "half_width_px": 3.12,
+      "source_radius_px": 977.88,
+      "role": "newton"
+    },
+    {
+      "radius_px": 989.86,
+      "half_width_px": 3.16,
+      "source_radius_px": 989.86,
+      "role": "newton"
+    },
+    {
+      "radius_px": 1001.3,
+      "half_width_px": 3.23,
+      "source_radius_px": 1001.3,
+      "role": "newton"
+    },
+    {
+      "radius_px": 1011.13,
+      "half_width_px": 2.54,
+      "source_radius_px": 1011.13,
+      "role": "newton"
+    },
+    {
+      "radius_px": 1022.71,
+      "half_width_px": 2.43,
+      "source_radius_px": 1022.71,
+      "role": "newton"
+    },
+    {
+      "radius_px": 1032.91,
+      "half_width_px": 2.69,
+      "source_radius_px": 1032.91,
+      "role": "newton"
+    },
+    {
+      "radius_px": 1042.07,
+      "half_width_px": 2.29,
+      "source_radius_px": 1042.07,
+      "role": "newton"
+    },
+    {
+      "radius_px": 1051.64,
+      "half_width_px": 2.45,
+      "source_radius_px": 1051.64,
+      "role": "newton"
+    },
+    {
+      "radius_px": 1062.93,
+      "half_width_px": 2.77,
+      "source_radius_px": 1062.93,
+      "role": "newton"
+    },
+    {
+      "radius_px": 1071.81,
+      "half_width_px": 2.52,
+      "source_radius_px": 1071.81,
+      "role": "newton"
+    },
+    {
+      "radius_px": 1081.44,
+      "half_width_px": 2.32,
+      "source_radius_px": 1081.44,
+      "role": "newton"
+    },
+    {
+      "radius_px": 1093.42,
+      "half_width_px": 2.53,
+      "source_radius_px": 1093.42,
+      "role": "newton"
+    },
+    {
+      "radius_px": 1099.61,
+      "half_width_px": 2.51,
+      "source_radius_px": 1099.61,
+      "role": "newton"
+    },
+    {
+      "radius_px": 1111.5,
+      "half_width_px": 2.72,
+      "source_radius_px": 1111.5,
+      "role": "newton"
+    },
+    {
+      "radius_px": 1120.56,
+      "half_width_px": 3.11,
+      "source_radius_px": 1120.56,
+      "role": "newton"
+    },
+    {
+      "radius_px": 1129.13,
+      "half_width_px": 4.0,
+      "source_radius_px": 1129.13,
+      "role": "newton"
+    },
+    {
+      "radius_px": 1139.07,
+      "half_width_px": 4.0,
+      "source_radius_px": 1139.07,
+      "role": "newton"
+    },
+    {
+      "radius_px": 1149.41,
+      "half_width_px": 4.0,
+      "source_radius_px": 1149.41,
+      "role": "newton"
+    },
+    {
+      "radius_px": 1157.37,
+      "half_width_px": 4.0,
+      "source_radius_px": 1157.37,
+      "role": "newton"
+    },
+    {
+      "radius_px": 1167.69,
+      "half_width_px": 4.0,
+      "source_radius_px": 1167.69,
+      "role": "newton"
+    },
+    {
+      "radius_px": 1177.71,
+      "half_width_px": 4.0,
+      "source_radius_px": 1177.71,
+      "role": "newton"
+    },
+    {
+      "radius_px": 1185.11,
+      "half_width_px": 4.0,
+      "source_radius_px": 1185.11,
+      "role": "newton"
+    },
+    {
+      "radius_px": 1193.59,
+      "half_width_px": 4.0,
+      "source_radius_px": 1193.59,
+      "role": "newton"
+    },
+    {
+      "radius_px": 1203.71,
+      "half_width_px": 4.0,
+      "source_radius_px": 1203.71,
+      "role": "newton"
+    },
+    {
+      "radius_px": 1211.64,
+      "half_width_px": 4.0,
+      "source_radius_px": 1211.64,
+      "role": "newton"
+    },
+    {
+      "radius_px": 1220.42,
+      "half_width_px": 4.0,
+      "source_radius_px": 1220.42,
+      "role": "newton"
+    },
+    {
+      "radius_px": 1228.72,
+      "half_width_px": 4.0,
+      "source_radius_px": 1228.72,
+      "role": "newton"
+    },
+    {
+      "radius_px": 1238.76,
+      "half_width_px": 4.0,
+      "source_radius_px": 1238.76,
+      "role": "newton"
+    },
+    {
+      "radius_px": 1246.35,
+      "half_width_px": 4.0,
+      "source_radius_px": 1246.35,
+      "role": "newton"
+    },
+    {
+      "radius_px": 1256.18,
+      "half_width_px": 4.0,
+      "source_radius_px": 1256.18,
+      "role": "newton"
+    },
+    {
+      "radius_px": 1262.63,
+      "half_width_px": 4.0,
+      "source_radius_px": 1262.63,
+      "role": "newton"
+    }
+  ],
+  "jitter_note": "半径已随环的小位移重算。半宽未改。"
+}

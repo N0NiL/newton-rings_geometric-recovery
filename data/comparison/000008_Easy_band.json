@@ -1,0 +1,94 @@
+{
+  "schema": "paper_human_band_v1",
+  "stem": "000008_Easy",
+  "review": "edited",
+  "half_init_px": 4.0,
+  "center_xy": [
+    513.77,
+    549.6
+  ],
+  "center_in_frame": true,
+  "off_side": null,
+  "note": "半宽按分析画布上暗纹的半高宽起稿，供人工再改。不替代 *_human.json。",
+  "rings": [
+    {
+      "radius_px": 181.17,
+      "half_width_px": 17.29,
+      "source_radius_px": 181.17,
+      "role": "newton"
+    },
+    {
+      "radius_px": 239.99,
+      "half_width_px": 12.68,
+      "source_radius_px": 239.99,
+      "role": "newton"
+    },
+    {
+      "radius_px": 282.75,
+      "half_width_px": 9.33,
+      "source_radius_px": 282.75,
+      "role": "newton"
+    },
+    {
+      "radius_px": 319.98,
+      "half_width_px": 8.52,
+      "source_radius_px": 319.98,
+      "role": "newton"
+    },
+    {
+      "radius_px": 350.96,
+      "half_width_px": 7.99,
+      "source_radius_px": 350.96,
+      "role": "newton"
+    },
+    {
+      "radius_px": 381.07,
+      "half_width_px": 6.91,
+      "source_radius_px": 381.07,
+      "role": "newton"
+    },
+    {
+      "radius_px": 407.48,
+      "half_width_px": 6.63,
+      "source_radius_px": 407.48,
+      "role": "newton"
+    },
+    {
+      "radius_px": 434.27,
+      "half_width_px": 6.3,
+      "source_radius_px": 434.27,
+      "role": "newton"
+    },
+    {
+      "radius_px": 463.45,
+      "half_width_px": 6.16,
+      "source_radius_px": 463.45,
+      "role": "newton"
+    },
+    {
+      "radius_px": 488.44,
+      "half_width_px": 4.0,
+      "source_radius_px": 488.44,
+      "role": "newton"
+    },
+    {
+      "radius_px": 509.22,
+      "half_width_px": 4.0,
+      "source_radius_px": 509.22,
+      "role": "newton"
+    },
+    {
+      "radius_px": 529.58,
+      "half_width_px": 4.0,
+      "source_radius_px": 529.58,
+      "role": "newton"
+    },
+    {
+      "radius_px": 552.17,
+      "half_width_px": 4.0,
+      "source_radius_px": 552.17,
+      "role": "newton"
+    }
+  ],
+  "jitter_note": "半径已随环的小位移重算。半宽未改。"
+}

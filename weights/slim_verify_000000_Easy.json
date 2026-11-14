@@ -1,0 +1,45 @@
+{
+  "frame": "000000_Easy_raw.png",
+  "under_github_2GiB": true,
+  "stage1_full_to_slim": {
+    "device": "cuda",
+    "diffs": {
+      "prob_max_abs": 0.0,
+      "prob_mean_abs": 0.0,
+      "prob_shape": [
+        768,
+        768
+      ],
+      "head_boundary_max_abs": 0.0,
+      "head_center_max_abs": 0.0,
+      "head_centerline_max_abs": 0.0,
+      "head_direction_max_abs": 0.0,
+      "n_contours_full": 414,
+      "n_contours_slim": 414
+    },
+    "match": true,
+    "slim_md5": "256e3c555b44873625efa78a3d93d547",
+    "slim_bytes": 607059640
+  },
+  "stage2_metadata_strip": {
+    "device": "cpu",
+    "compared_against_md5": "256e3c555b44873625efa78a3d93d547",
+    "dropped_keys": [
+      "distill_config",
+      "epoch",
+      "metrics",
+      "slim_note",
+      "slimmed_from",
+      "state_dict (duplicate of student_state_dict)",
+      "config.train",
+      "config.loss",
+      "config.data_root",
+      "config.output_dir"
+    ],
+    "max_abs_diff_all_outputs": 0.0,
+    "n_contours": 414,
+    "match": true,
+    "md5": "5941203ce7b5384ba7a389c0a2606c83",
+    "bytes": 607060252
+  }
+}

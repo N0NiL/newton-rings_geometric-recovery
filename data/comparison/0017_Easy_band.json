@@ -1,0 +1,50 @@
+{
+  "schema": "paper_human_band_v1",
+  "stem": "0017_Easy",
+  "half_init_px": 8.0,
+  "center_xy": [
+    412.17,
+    476.01
+  ],
+  "center_in_frame": true,
+  "off_side": null,
+  "note": "由中线加粗后人工改定半径和半宽。绿线半径仍留在 source_radius_px。不替代 *_human.json。",
+  "rings": [
+    {
+      "radius_px": 206.59,
+      "half_width_px": 7.5,
+      "source_radius_px": 198.0,
+      "role": "newton"
+    },
+    {
+      "radius_px": 257.78,
+      "half_width_px": 6.0,
+      "source_radius_px": 257.23,
+      "role": "newton"
+    },
+    {
+      "radius_px": 301.19,
+      "half_width_px": 4.5,
+      "source_radius_px": 299.43,
+      "role": "newton"
+    },
+    {
+      "radius_px": 334.96,
+      "half_width_px": 4.5,
+      "source_radius_px": 336.76,
+      "role": "newton"
+    },
+    {
+      "radius_px": 366.83,
+      "half_width_px": 4.0,
+      "source_radius_px": 369.71,
+      "role": "newton"
+    },
+    {
+      "radius_px": 400.83,
+      "half_width_px": 4.5,
+      "source_radius_px": 400.83,
+      "role": "newton"
+    }
+  ]
+}

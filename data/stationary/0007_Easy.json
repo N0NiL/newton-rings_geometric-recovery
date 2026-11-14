@@ -1,0 +1,32 @@
+{
+  "id": "0007_Easy",
+  "saved_at": "2026-10-26T17:00:59",
+  "subset": "Easy",
+  "role": "capture_only",
+  "source": "usb_newton_preview",
+  "engine": "newmodel",
+  "model_path": "weights/50distill_last.pt",
+  "raw_png": "0007_Easy_raw.png",
+  "canvas_png": "0007_Easy_canvas.png",
+  "coordinate": "analysis_canvas",
+  "mapping": {
+    "crop_x0": 420,
+    "crop_y0": 0,
+    "crop_side": 1080,
+    "model_side": 768,
+    "spatial_mode": "resize",
+    "pad_left": 0,
+    "pad_top": 0
+  },
+  "image_controls": {
+    "exposure": -6,
+    "gain": 0,
+    "brightness": 0,
+    "contrast": 48,
+    "compensate": 0,
+    "auto_tone": 0
+  },
+  "image_controls_note": "手动快门、增益、亮度、对比度和软件补偿。补偿 100 为不乘亮度。自动提亮默认关。",
+  "human": null,
+  "human_note": "人工对照不在截图时做。用 paper_ao/bench/run_paper_annotate.bat 打开本目录。"
+}

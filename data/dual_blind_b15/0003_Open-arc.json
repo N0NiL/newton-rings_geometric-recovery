@@ -1,0 +1,7 @@
+{
+  "subset": "Open-arc",
+  "dual_blind": true,
+  "annotator_slot": "B",
+  "source_session": "comparison",
+  "note": "双盲对照会话：本目录不得放置第一标注员 *_human.json。"
+}

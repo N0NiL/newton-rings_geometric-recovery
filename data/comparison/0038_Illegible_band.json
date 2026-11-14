@@ -1,0 +1,464 @@
+{
+  "schema": "paper_human_band_v1",
+  "stem": "0038_Illegible",
+  "half_init_px": 4.0,
+  "center_xy": [
+    -816.83,
+    321.58
+  ],
+  "center_in_frame": false,
+  "off_side": "left",
+  "note": "Broken 未逐环审阅。半宽按要求全部改为标注工具下限 1 像素。",
+  "rings": [
+    {
+      "radius_px": 878.88,
+      "half_width_px": 1.0,
+      "source_radius_px": 878.88,
+      "role": "newton"
+    },
+    {
+      "radius_px": 891.83,
+      "half_width_px": 1.0,
+      "source_radius_px": 891.83,
+      "role": "newton"
+    },
+    {
+      "radius_px": 903.81,
+      "half_width_px": 1.0,
+      "source_radius_px": 903.81,
+      "role": "newton"
+    },
+    {
+      "radius_px": 916.68,
+      "half_width_px": 1.0,
+      "source_radius_px": 916.68,
+      "role": "newton"
+    },
+    {
+      "radius_px": 927.69,
+      "half_width_px": 1.0,
+      "source_radius_px": 927.69,
+      "role": "newton"
+    },
+    {
+      "radius_px": 939.79,
+      "half_width_px": 1.0,
+      "source_radius_px": 939.79,
+      "role": "newton"
+    },
+    {
+      "radius_px": 951.13,
+      "half_width_px": 1.0,
+      "source_radius_px": 951.13,
+      "role": "newton"
+    },
+    {
+      "radius_px": 962.53,
+      "half_width_px": 1.0,
+      "source_radius_px": 962.53,
+      "role": "newton"
+    },
+    {
+      "radius_px": 973.2,
+      "half_width_px": 1.0,
+      "source_radius_px": 973.2,
+      "role": "newton"
+    },
+    {
+      "radius_px": 984.56,
+      "half_width_px": 1.0,
+      "source_radius_px": 984.56,
+      "role": "newton"
+    },
+    {
+      "radius_px": 995.95,
+      "half_width_px": 1.0,
+      "source_radius_px": 995.95,
+      "role": "newton"
+    },
+    {
+      "radius_px": 1005.89,
+      "half_width_px": 1.0,
+      "source_radius_px": 1005.89,
+      "role": "newton"
+    },
+    {
+      "radius_px": 1017.82,
+      "half_width_px": 1.0,
+      "source_radius_px": 1017.82,
+      "role": "newton"
+    },
+    {
+      "radius_px": 1027.96,
+      "half_width_px": 1.0,
+      "source_radius_px": 1027.96,
+      "role": "newton"
+    },
+    {
+      "radius_px": 1038.61,
+      "half_width_px": 1.0,
+      "source_radius_px": 1038.61,
+      "role": "newton"
+    },
+    {
+      "radius_px": 1048.58,
+      "half_width_px": 1.0,
+      "source_radius_px": 1048.58,
+      "role": "newton"
+    },
+    {
+      "radius_px": 1059.24,
+      "half_width_px": 1.0,
+      "source_radius_px": 1059.24,
+      "role": "newton"
+    },
+    {
+      "radius_px": 1069.2,
+      "half_width_px": 1.0,
+      "source_radius_px": 1069.2,
+      "role": "newton"
+    },
+    {
+      "radius_px": 1079.36,
+      "half_width_px": 1.0,
+      "source_radius_px": 1079.36,
+      "role": "newton"
+    },
+    {
+      "radius_px": 1089.21,
+      "half_width_px": 1.0,
+      "source_radius_px": 1089.21,
+      "role": "newton"
+    },
+    {
+      "radius_px": 1098.33,
+      "half_width_px": 1.0,
+      "source_radius_px": 1098.33,
+      "role": "newton"
+    },
+    {
+      "radius_px": 1108.31,
+      "half_width_px": 1.0,
+      "source_radius_px": 1108.31,
+      "role": "newton"
+    },
+    {
+      "radius_px": 1118.26,
+      "half_width_px": 1.0,
+      "source_radius_px": 1118.26,
+      "role": "newton"
+    },
+    {
+      "radius_px": 1127.5,
+      "half_width_px": 1.0,
+      "source_radius_px": 1127.5,
+      "role": "newton"
+    },
+    {
+      "radius_px": 1136.74,
+      "half_width_px": 1.0,
+      "source_radius_px": 1136.74,
+      "role": "newton"
+    },
+    {
+      "radius_px": 1146.35,
+      "half_width_px": 1.0,
+      "source_radius_px": 1146.35,
+      "role": "newton"
+    },
+    {
+      "radius_px": 1155.94,
+      "half_width_px": 1.0,
+      "source_radius_px": 1155.94,
+      "role": "newton"
+    },
+    {
+      "radius_px": 1165.19,
+      "half_width_px": 1.0,
+      "source_radius_px": 1165.19,
+      "role": "newton"
+    },
+    {
+      "radius_px": 1174.44,
+      "half_width_px": 1.0,
+      "source_radius_px": 1174.44,
+      "role": "newton"
+    },
+    {
+      "radius_px": 1182.95,
+      "half_width_px": 1.0,
+      "source_radius_px": 1182.95,
+      "role": "newton"
+    },
+    {
+      "radius_px": 1192.2,
+      "half_width_px": 1.0,
+      "source_radius_px": 1192.2,
+      "role": "newton"
+    },
+    {
+      "radius_px": 1201.44,
+      "half_width_px": 1.0,
+      "source_radius_px": 1201.44,
+      "role": "newton"
+    },
+    {
+      "radius_px": 1210.0,
+      "half_width_px": 1.0,
+      "source_radius_px": 1210.0,
+      "role": "newton"
+    },
+    {
+      "radius_px": 1219.88,
+      "half_width_px": 1.0,
+      "source_radius_px": 1219.88,
+      "role": "newton"
+    },
+    {
+      "radius_px": 1228.56,
+      "half_width_px": 1.0,
+      "source_radius_px": 1228.56,
+      "role": "newton"
+    },
+    {
+      "radius_px": 1237.17,
+      "half_width_px": 1.0,
+      "source_radius_px": 1237.17,
+      "role": "newton"
+    },
+    {
+      "radius_px": 1245.4,
+      "half_width_px": 1.0,
+      "source_radius_px": 1245.4,
+      "role": "newton"
+    },
+    {
+      "radius_px": 1254.41,
+      "half_width_px": 1.0,
+      "source_radius_px": 1254.41,
+      "role": "newton"
+    },
+    {
+      "radius_px": 1262.65,
+      "half_width_px": 1.0,
+      "source_radius_px": 1262.65,
+      "role": "newton"
+    },
+    {
+      "radius_px": 1271.23,
+      "half_width_px": 1.0,
+      "source_radius_px": 1271.23,
+      "role": "newton"
+    },
+    {
+      "radius_px": 1278.98,
+      "half_width_px": 1.0,
+      "source_radius_px": 1278.98,
+      "role": "newton"
+    },
+    {
+      "radius_px": 1287.86,
+      "half_width_px": 1.0,
+      "source_radius_px": 1287.86,
+      "role": "newton"
+    },
+    {
+      "radius_px": 1295.92,
+      "half_width_px": 1.0,
+      "source_radius_px": 1295.92,
+      "role": "newton"
+    },
+    {
+      "radius_px": 1303.92,
+      "half_width_px": 1.0,
+      "source_radius_px": 1303.92,
+      "role": "newton"
+    },
+    {
+      "radius_px": 1312.37,
+      "half_width_px": 1.0,
+      "source_radius_px": 1312.37,
+      "role": "newton"
+    },
+    {
+      "radius_px": 1320.15,
+      "half_width_px": 1.0,
+      "source_radius_px": 1320.15,
+      "role": "newton"
+    },
+    {
+      "radius_px": 1328.86,
+      "half_width_px": 1.0,
+      "source_radius_px": 1328.86,
+      "role": "newton"
+    },
+    {
+      "radius_px": 1336.54,
+      "half_width_px": 1.0,
+      "source_radius_px": 1336.54,
+      "role": "newton"
+    },
+    {
+      "radius_px": 1345.45,
+      "half_width_px": 1.0,
+      "source_radius_px": 1345.45,
+      "role": "newton"
+    },
+    {
+      "radius_px": 1352.59,
+      "half_width_px": 1.0,
+      "source_radius_px": 1352.59,
+      "role": "newton"
+    },
+    {
+      "radius_px": 1360.4,
+      "half_width_px": 1.0,
+      "source_radius_px": 1360.4,
+      "role": "newton"
+    },
+    {
+      "radius_px": 1368.04,
+      "half_width_px": 1.0,
+      "source_radius_px": 1368.04,
+      "role": "newton"
+    },
+    {
+      "radius_px": 1376.25,
+      "half_width_px": 1.0,
+      "source_radius_px": 1376.25,
+      "role": "newton"
+    },
+    {
+      "radius_px": 1383.77,
+      "half_width_px": 1.0,
+      "source_radius_px": 1383.77,
+      "role": "newton"
+    },
+    {
+      "radius_px": 1391.29,
+      "half_width_px": 1.0,
+      "source_radius_px": 1391.29,
+      "role": "newton"
+    },
+    {
+      "radius_px": 1398.64,
+      "half_width_px": 1.0,
+      "source_radius_px": 1398.64,
+      "role": "newton"
+    },
+    {
+      "radius_px": 1406.48,
+      "half_width_px": 1.0,
+      "source_radius_px": 1406.48,
+      "role": "newton"
+    },
+    {
+      "radius_px": 1413.96,
+      "half_width_px": 1.0,
+      "source_radius_px": 1413.96,
+      "role": "newton"
+    },
+    {
+      "radius_px": 1422.14,
+      "half_width_px": 1.0,
+      "source_radius_px": 1422.14,
+      "role": "newton"
+    },
+    {
+      "radius_px": 1429.59,
+      "half_width_px": 1.0,
+      "source_radius_px": 1429.59,
+      "role": "newton"
+    },
+    {
+      "radius_px": 1436.9,
+      "half_width_px": 1.0,
+      "source_radius_px": 1436.9,
+      "role": "newton"
+    },
+    {
+      "radius_px": 1443.99,
+      "half_width_px": 1.0,
+      "source_radius_px": 1443.99,
+      "role": "newton"
+    },
+    {
+      "radius_px": 1451.51,
+      "half_width_px": 1.0,
+      "source_radius_px": 1451.51,
+      "role": "newton"
+    },
+    {
+      "radius_px": 1459.15,
+      "half_width_px": 1.0,
+      "source_radius_px": 1459.15,
+      "role": "newton"
+    },
+    {
+      "radius_px": 1465.82,
+      "half_width_px": 1.0,
+      "source_radius_px": 1465.82,
+      "role": "newton"
+    },
+    {
+      "radius_px": 1472.98,
+      "half_width_px": 1.0,
+      "source_radius_px": 1472.98,
+      "role": "newton"
+    },
+    {
+      "radius_px": 1480.97,
+      "half_width_px": 1.0,
+      "source_radius_px": 1480.97,
+      "role": "newton"
+    },
+    {
+      "radius_px": 1488.05,
+      "half_width_px": 1.0,
+      "source_radius_px": 1488.05,
+      "role": "newton"
+    },
+    {
+      "radius_px": 1494.37,
+      "half_width_px": 1.0,
+      "source_radius_px": 1494.37,
+      "role": "newton"
+    },
+    {
+      "radius_px": 1501.94,
+      "half_width_px": 1.0,
+      "source_radius_px": 1501.94,
+      "role": "newton"
+    },
+    {
+      "radius_px": 1508.82,
+      "half_width_px": 1.0,
+      "source_radius_px": 1508.82,
+      "role": "newton"
+    },
+    {
+      "radius_px": 1516.15,
+      "half_width_px": 1.0,
+      "source_radius_px": 1516.15,
+      "role": "newton"
+    },
+    {
+      "radius_px": 1523.07,
+      "half_width_px": 1.0,
+      "source_radius_px": 1523.07,
+      "role": "newton"
+    },
+    {
+      "radius_px": 1530.09,
+      "half_width_px": 1.0,
+      "source_radius_px": 1530.09,
+      "role": "newton"
+    },
+    {
+      "radius_px": 1536.95,
+      "half_width_px": 1.0,
+      "source_radius_px": 1536.95,
+      "role": "newton"
+    }
+  ]
+}

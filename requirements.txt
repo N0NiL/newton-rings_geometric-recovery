@@ -1,0 +1,13 @@
+# Versions of the lab machine used for the paper tables (Windows, Python 3.11).
+numpy==2.4.3
+scipy==1.17.1
+opencv-python==4.13.0.92
+torch==2.5.1
+torchvision==0.20.1
+timm==1.0.28
+segmentation-models-pytorch==0.5.0
+scikit-image==0.26.0
+Pillow==12.1.1
+# The paper used the CUDA 12.1 build (torch 2.5.1+cu121). The CPU wheel from PyPI
+# gives the same results within the sub-pixel differences noted in README.md;
+# for GPU, install the matching cu121 wheels from pytorch.org first.

@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+message: "If you use this code or data, please cite the article below."
+title: "Robust geometric recovery of Newton’s rings under non-ideal imaging: reproduction package"
+type: software
+authors:
+  - family-names: Lin
+    given-names: Haozhen
+license:
+  - GPL-3.0-or-later
+  - CC-BY-4.0
+preferred-citation:
+  type: unpublished
+  title: "Robust geometric recovery of Newton’s rings under non-ideal imaging"
+  authors:
+    - family-names: Lin
+      given-names: Haozhen
+  notes: "Manuscript submitted to Optics and Lasers in Engineering; update with journal and DOI upon acceptance. Cite the published paper’s author list as it appears in the journal."
