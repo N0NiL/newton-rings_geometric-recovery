@@ -117,6 +117,9 @@ MA-Net 重跑的结果也可能因 GPU 和库版本与冻结结果有亚像素�
 
 ## MA-Net
 
+下载：https://github.com/N0NiL/newton-rings_geometric-recovery/releases/download/v0.1.0/50distill_last.pt
+（MD5 `5941203ce7b5384ba7a389c0a2606c83`；放到 `weights/` 目录下。）
+
 只提供蒸馏学生网络的轻量包（`weights/50distill_last.pt`，约 607 MB / 0.565 GiB；
 MD5 `5941203ce7b5384ba7a389c0a2606c83`）。去掉了教师权重、优化器状态和训练元数据；与完整训练
 checkpoint 在单帧上逐元素一致（见 `weights/README.md`），以合乎 GitHub 单文件 2G 的上限。训练代码与 333 张训练帧不收录。

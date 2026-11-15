@@ -14,6 +14,9 @@ Verified bit-exact against the full training checkpoint on frame `000000_Easy_ra
 A second pass removed the training metadata; its output again matches bit-exactly
 (CPU; all heads, physics outputs, and the 414 contours identical). See `slim_verify_000000_Easy.json`.
 
+Download: https://github.com/N0NiL/newton-rings_geometric-recovery/releases/download/v0.1.0/50distill_last.pt
+(MD5 5941203ce7b5384ba7a389c0a2606c83; place it in weights/)
+
 Place the file next to this README before re-running MA-Net inference
 (`run_comparison_now.py`, `run_easy_translate.py`, …).
 

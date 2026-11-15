@@ -129,6 +129,9 @@ on the frames checked, pass/fail decisions are unaffected.
 
 ## MA-Net
 
+Download: https://github.com/N0NiL/newton-rings_geometric-recovery/releases/download/v0.1.0/50distill_last.pt
+(MD5 5941203ce7b5384ba7a389c0a2606c83; place it in weights/)
+
 Only a slim distilled-student checkpoint is provided
 (`weights/50distill_last.pt`, ≈607 MB / 0.565 GiB;
 MD5 `5941203ce7b5384ba7a389c0a2606c83`).
